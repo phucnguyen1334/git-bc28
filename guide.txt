@@ -1,0 +1,10 @@
+tải git
+mở vsc gõ ctrl+~ hoặc new terminal
+vào github tạo responsity
+1/ git init: khởi tạo git
+2/ git --version: kiểm tra phiên bản git
+3/ đưa code của mình lên server github/gitlab:
+    git add .
+    git commit -m "your comment"
+    git push
+4/ git status: kiểm tra trạng thái của git
