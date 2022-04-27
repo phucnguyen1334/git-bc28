@@ -6,10 +6,16 @@ vào github tạo responsity
 3/ đưa code của mình lên server github/gitlab:
     git add . | git add ./learn-git/index.html
     git commit -m "your comment"
-    git push
+    git push --set-upstream origin stream (lần đầu) | git push
 4/ git status: kiểm tra trạng thái của git
 5/ lệnh giúp git biết đc sẽ đưa code lên chỗ nào
     git remote add {name} {url_github}
     vd: git remote add origin https://github.com/phucnguyen1334/git-bc28.git
 6/ check add remote thành công?: git remote
 Khi muốn commit những thay đổi, git add ., git push --set-upstream ogirin master cho lần đầu, sau này chỉ cần gõ git push.
+7/ lấy source code về, lên sao chép link, gõ git clone link.
+8/ git branch: kiểm tra có bn nhánh trên source code
+9/ git branch [name]: tạo nhánh mới
+    vd: git branch hong-phuc
+10/ chuyển nhánh để code tiếp: git checkout {branch-name}
+    vd: git checkout hong-phuc
