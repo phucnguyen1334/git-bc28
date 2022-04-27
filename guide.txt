@@ -23,3 +23,5 @@ Khi muốn commit những thay đổi, git add ., git push --set-upstream ogirin
 12/ kết hợp code của 2 nhánh: git merge {branch-name}
     note: nếu muốn kết hợp code vào master, bạn phải đứng ở nhánh master
     vd: git merge hong-phuc
+    tạo git checkout -b hao-footer
+13/ update source code mới nhất vào code local để code tiếp: git pull {remote_name}origin {branch_name}master | git pull
