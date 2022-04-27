@@ -4,7 +4,11 @@ vào github tạo responsity
 1/ git init: khởi tạo git
 2/ git --version: kiểm tra phiên bản git
 3/ đưa code của mình lên server github/gitlab:
-    git add .
+    git add . | git add ./learn-git/index.html
     git commit -m "your comment"
     git push
 4/ git status: kiểm tra trạng thái của git
+5/ lệnh giúp git biết đc sẽ đưa code lên chỗ nào
+    git remote add {name} {url_github}
+    vd: git remote add origin https://github.com/phucnguyen1334/git-bc28.git
+6/ check add remote thành công?: git remote
