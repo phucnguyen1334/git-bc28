@@ -12,3 +12,4 @@ vào github tạo responsity
     git remote add {name} {url_github}
     vd: git remote add origin https://github.com/phucnguyen1334/git-bc28.git
 6/ check add remote thành công?: git remote
+Khi muốn commit những thay đổi, git add ., git push --set-upstream ogirin master cho lần đầu, sau này chỉ cần gõ git push.
